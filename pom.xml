@@ -36,7 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>docker-jenkins+${project.version}</finalName>
+		<finalName>docker-jenkins</finalName>
 	</build>
 
 </project>
