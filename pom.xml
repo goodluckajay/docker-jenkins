@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.self</groupId>
 	<artifactId>docker-jenkins</artifactId>
-	<!--<version>0.0.1-SNAPSHOT</version> -->
+	<!--<version></version> -->
 	<name>docker jenkins</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -36,7 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>docker-jenkins</finalName>
+		<finalName>docker-jenkins+${project.version}</finalName>
 	</build>
 
 </project>
